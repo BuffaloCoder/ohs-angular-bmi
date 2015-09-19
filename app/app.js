@@ -5,7 +5,8 @@ angular.module('myApp', [
   'ngRoute',
   'myApp.bmi',
   'myApp.about',
-  'myApp.version'
+  'myApp.version',
+  'ui.bootstrap'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/bmi'});
